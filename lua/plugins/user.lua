@@ -1,4 +1,26 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- return a custom object here, but keep the examples below for easy reference
+
+---@type LazySpec
+if true then
+  return {
+    -- customize existing plugins
+    -- neotree
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      filesystem = {
+        filtered_items = {
+          hide_dotfiles = true,
+          hide_gitignored = true,
+          always_show = {
+            ".github", -- gotta edit that workflow yaml
+            ".env",
+            "willtmp", -- per project temp dir for Will's tmp stuff
+          },
+        },
+      },
+    },
+  }
+end
 
 -- You can also add or configure plugins by creating files in this `plugins/` folder
 -- Here are some examples:
