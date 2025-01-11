@@ -11,5 +11,6 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
   -- import/override with your plugins folder
 }
