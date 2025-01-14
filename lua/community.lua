@@ -12,5 +12,7 @@ return {
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.git.openingh-nvim" },
+  { import = "astrocommunity.fuzzy-finder.fzf-lua" },
   -- import/override with your plugins folder
 }
