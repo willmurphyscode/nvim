@@ -16,5 +16,4 @@ if not pcall(require, "lazy") then
 end
 
 require "lazy_setup"
-require("watch_project").setup()
 require "polish"
